@@ -196,6 +196,10 @@ header nav ul {
 
 
 /* ------ Footer ------ */
+footer .content-wrapper {
+  width: 90%;
+}
+
 footer span {
   color: #ffffff;
   padding: 3px;
@@ -389,23 +393,10 @@ main {
   /* Style adjustments for viewports that meet the condition */
   /*** Hero section ***/
 
-  #hero .content-wrapper {
-    width: 80%;
+  .hero .content-wrapper {
+    width: 100%;
+    font-size: 4rem;
   }
-
-  #hero .half-content {
-    flex-direction: row;
-  }
-
-  .hero-text {
-    width: 75%;
-    padding: 1.5rem;
-  }
-
-  #hero img {
-    width: 260px;
-  }
-
 
 }
 
